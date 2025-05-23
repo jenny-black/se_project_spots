@@ -1,0 +1,35 @@
+.card {
+  max-width: 413px;
+  margin: 0;
+  padding: 0;
+}
+
+.card__image {
+  height: 413px;
+  width: 413px;
+  border-radius: 8px;
+  display: block;
+}
+
+.card__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0 0;
+}
+
+.card__title {
+  margin: 0;
+}
+
+.card__like-button {
+  background-image: url(../images/heart-like.svg);
+  height: 20px;
+  width: 23px;
+  border: none;
+  opacity: 40%;
+}
+
+.card__like-button:hover {
+  opacity: 100%;
+}

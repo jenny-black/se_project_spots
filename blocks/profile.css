@@ -32,6 +32,11 @@
   gap: 8px;
   background-color: #fcf5e5;
   border-style: none;
+  opacity: 70%;
+}
+
+.profile__edit:hover {
+  opacity: 100%;
 }
 
 .profile__new-post {
@@ -47,4 +52,8 @@
   margin-top: auto;
   font-size: 16px;
   align-items: center;
+}
+
+.profile__new-post:hover {
+  opacity: 80%;
 }
