@@ -5,6 +5,8 @@
 }
 
 .profile__avatar {
+  height: 190px;
+  width: 190px;
   margin-right: 20px;
   border-radius: 8px;
 }
@@ -17,11 +19,15 @@
 .profile__name {
   font-size: 32px;
   margin: 0 0 12px;
+  font-weight: 500;
+  line-height: 1;
 }
 
 .profile__description {
   font-size: 16px;
   margin: 0;
+  font-weight: 500;
+  line-height: 1;
 }
 
 .profile__edit {
@@ -33,6 +39,8 @@
   background-color: #fcf5e5;
   border-style: none;
   opacity: 70%;
+  font-weight: 500;
+  line-height: 1;
 }
 
 .profile__edit:hover {
@@ -52,8 +60,49 @@
   margin-top: auto;
   font-size: 16px;
   align-items: center;
+  font-weight: 500;
+  line-height: 1;
 }
 
 .profile__new-post:hover {
   opacity: 80%;
+}
+
+@media screen and (max-width: 550px) {
+  .profile {
+    flex-direction: column;
+    max-width: 288px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .profile__avatar {
+    height: 80px;
+    width: 80px;
+    margin-right: 0;
+    padding-bottom: 12px;
+  }
+
+  .profile__name {
+    padding-bottom: 6px;
+    font-size: 20px;
+  }
+
+  .profile__description {
+    padding-bottom: 32px;
+  }
+
+  .profile__edit {
+    justify-content: center;
+  }
+
+  .profile__column {
+    padding-bottom: 20px;
+  }
+
+  .profile__new-post {
+    margin: 0;
+    width: 100%;
+  }
 }
