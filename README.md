@@ -15,7 +15,7 @@ Spots is a website where user's can share and like images that are posted. This 
 
 ## Deployment
 
-git@github.com:jenny-black/se_project_spots.git
+[Deployment Link](https://jenny-black.github.io/se_project_spots/)
 
 ## Images
 
