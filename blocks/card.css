@@ -47,11 +47,8 @@
     height: 288px;
   }
 
-  .card__content {
-    max-width: 250px;
-  }
-
   .card__title {
     font-size: 16px;
+    max-width: 250px;
   }
 }
