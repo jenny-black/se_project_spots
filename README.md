@@ -22,4 +22,6 @@ Spots is a website where user's can share and like images that are posted. This 
 ![Bessie Coleman profile picture](/images/avatar.jpg)
 ![Mountain house](/images/6-photo-by-moritz-feldmann-from-pexels.jpg)
 
-Good luck and have fun!
+## Video
+
+![Video of my project](https://drive.google.com/file/d/1udySsculU778Vi1vQR5yDWTeeF9vj1fm/view?usp=sharing)
