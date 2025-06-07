@@ -110,7 +110,7 @@
       <footer class="footer">
         <p class="footer__copyright">2025 &copy; Spots</p>
       </footer>
-      <div class="modal modal_is-opened">
+      <div class="modal">
         <div class="modal__container">
           <button type="button" class="modal__close-button"></button>
           <h2 class="modal__title">Edit profile</h2>
@@ -130,6 +130,33 @@
                 id="profile-description-input"
                 type="text"
                 placeholder="Describe yourself"
+                class="modal__input"
+              />
+            </label>
+            <button type="submit" class="modal__submit-button">Save</button>
+          </form>
+        </div>
+      </div>
+      <div class="modal modal_is-opened">
+        <div class="modal__container">
+          <button type="button" class="modal__close-button"></button>
+          <h2 class="modal__title">New post</h2>
+          <form class="modal__form">
+            <label for="image-link-input" class="modal__label"
+              >Image link
+              <input
+                id="image-link-input"
+                type="url"
+                placeholder="Paste a link to the picture"
+                class="modal__input"
+              />
+            </label>
+            <label for="post-caption-input" class="modal__label"
+              >Caption
+              <input
+                id="post-caption-input"
+                type="text"
+                placeholder="Type your caption"
                 class="modal__input"
               />
             </label>
